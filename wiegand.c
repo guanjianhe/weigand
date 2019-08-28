@@ -15,7 +15,7 @@ uint32_t WIEGAND_getCode(void)
     return _code;
 }
 
-int WIEGAND_getWiegandType(void)
+uint8_t WIEGAND_getWiegandType(void)
 {
     return _wiegandType;
 }
